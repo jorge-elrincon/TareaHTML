@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Tabla</title>
+    </head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <table>
+            <caption>Diferencias entre licencias</caption>
+            <tr>
+                <td>Licencias</td>
+                <td>Hacer propietario</td>
+                <td>Librerías</td>
+            </tr>
+            <tr>
+                <td>GPL</td>
+                <td rowspan="2">No</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>LGPL</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>Apache</td>
+                <td colspan="2">Sí</td>
+            </tr>
+        </table>
+    </body>
+</html>
