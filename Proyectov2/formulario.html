@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios con botones de envío</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="script" href="script.js">
+  </head>
+  <body>
+    <table>
+        <tr>
+            <td>
+                <form  action="https://webhook.site/fa326824-4964-4ffe-baf6-08d4497c80d8" method="POST">
+                    <label>
+                        <input type="hidden" name="NombreyApellidos" value="Jorge Henríquez Santana">
+                    </label>
+                    <p>Introduce tu nombre de usuario:</p>
+                    <input type="text" name="Nombre">
+                    <p>Introduce la contraseña:</p>
+                    <input type="password">
+                    <p>Introduce tu correo</p>
+                    <input type="email">
+                    <p>Selecciona los sistemas operativos de escritorio que usas:</p>
+                    <label>
+                        <input type="checkbox" name="so1" value="Windows">
+                        Windows
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="so1" value="MacOS">
+                        MacOS
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="so1" value="ChromeOS">
+                        ChromeOS
+                    </label>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="so1" value="Linux">
+                        Linux
+                    </label>
+                    <br>
+                    <p>Escoge tu sistema operativo favorito:</p>
+                    <label>
+                        SO:
+                        <select name="so2">           
+                            <option value="Windows">Windows</option>
+                            <option value="MacOS">MacOS</option>
+                            <option value="ChromeOS">ChromeOS</option>
+                            <option value="Linux">Linux</option>
+                        </select>
+                    </label>
+                    <br>
+                    <br>
+                    <fieldset>
+                        <label>
+                            Enviar formulario
+                            <input type="submit" name="Enviar datos" value="Enviar">
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            Eliminar los datos
+                            <input type="reset" name="Borrar datos" value="Borrar">
+                        </label>
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+    </table>
+  </body>
+</html>
